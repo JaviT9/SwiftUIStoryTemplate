@@ -6,9 +6,9 @@ struct Chapter4View: View {
             //.edgesIgnoringSafeArea(.all)
         TabView{
             TestingNavigation()
-            .tabItem { Text("Tab Label 1") }.tag(1)
+                .tabItem { Text("🐍").font(.largeTitle) }.tag(1)
             TestingNavigationpt2()
-            .tabItem { Text("Tab Label 2") }.tag(2)
+                .tabItem { Text("💎").font(.largeTitle) }.tag(2)
         }
         .onAppear{
             UITabBar.appearance().backgroundColor = .clear
