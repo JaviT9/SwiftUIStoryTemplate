@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Digital Sea.pdf",
+      "filename" : "Code@2x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "DigitalSea@2x.pdf",
       "idiom" : "universal",
       "scale" : "2x"
     },
