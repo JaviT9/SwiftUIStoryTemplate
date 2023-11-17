@@ -4,6 +4,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            Saving_Zenith()
+                .tabItem {
+                    Label("Cover", systemImage: "book.closed.fill")
+                }
             Chapter1View()
                 .tabItem {
                     Label("Chapter 1", systemImage: "1.circle")

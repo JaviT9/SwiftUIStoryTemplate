@@ -68,7 +68,7 @@ struct TestingNavigationpt2: View {
                     }
                 }
                 
-                Text("Pixel chooses the \(selectedWeapon). Scala releases a giant electric eel. Amidst epic waves and fierce battles with the sea creature, Pixel and Pythos emerge victorious. demonstrating their courage and resolve. Touched by their determination, Scala revealed the Heart of the Sea. Pixel grabs the Heart of the Sea and swims back to shore Finally Pixel and Pythos has finished the lengthy quest and is ready to head back to Zenith a beautiful, vast digital world currently full of glitches and malstorms everyday.")
+                Text("Pixel chooses the \(selectedWeapon). Scala releases a giant electric eel. Amidst epic waves and fierce battles with the sea creature, Pixel and Pythos emerge victorious. demonstrating their courage and resolve. Touched by their determination, Scala revealed the Heart of the Sea. Pixel grabs the Heart of the Sea and the \(selectedWeapon) and swims back to shore Finally Pixel and Pythos has finished the lengthy quest and is ready to head back to Zenith a beautiful, vast digital world currently full of glitches and malstorms everyday.")
                     .foregroundColor(.white)
                 
                 
@@ -84,7 +84,7 @@ struct TestingNavigationpt3: View {
             Color.black
             //.ignoresSafeArea()
             VStack {
-             Text(" Pixel arrives back home Zenith and head to the center of the malstorms and discovers that an evil virus, Xeros, was the cause of all that befell Zenith. Pixel knew what he/she had pulled out the three ancient artifacts and as the third artifact was pulled out they began to glow. The bright Gold of the Microchip shinned as brightly as the sun, a refreshing green from the Knowledge of the Forest, a electrifying blue from the Heart of the sea. The three artifacts flew into the air and combined creating a sonic boom that blew through all of Zenith, rebooting the land of Zenith and cleansing it of the evil virus Xeros")
+             Text(" Pixel arrives back home Zenith and head to the center of the malstorms and discovers that an evil virus, Xeros, was the cause of all that befell Zenith. Pixel knew what he/she had pulled out the three ancient artifacts and as the third artifact was pulled out they began to glow. The bright Gold of the Microchip shinned as brightly as the sun, a refreshing green from the Knowledge of the Forest, a electrifying blue from the Heart of the sea. The three artifacts flew into the air and combined creating a sonic boom that blew through all of Zenith, rebooting the land of Zenith and cleansing it of the evil virus Xeros!")
                     .foregroundColor(.white)
                 Image("Gem")
                     .resizable()
